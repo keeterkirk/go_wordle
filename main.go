@@ -13,7 +13,11 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/keeterkirk/go_wordle/dictionary"
+)
 
 func main() {
 	fmt.Println("Welcome to the Wordle game!")
@@ -23,4 +27,5 @@ func main() {
 	fmt.Scanln(&name)
 
 	fmt.Println("Hello, " + name + "! Let's start the game.")
+	fmt.Println(dictionary.RandomWord())
 }

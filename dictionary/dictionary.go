@@ -1,5 +1,5 @@
 package dictionary
 
 func RandomWord() string {
-	return ""
+	return "award"
 }
